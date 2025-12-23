@@ -13,5 +13,10 @@ use these 2 line
 
 again we do dvc add data/ (create data.dvc) then git add .gitignore data.dvc
 now dvc commit and then dvc push
+do a git add-commit-push to mark this stage as first version of data 
+
+now make change to code.py to append a new row in data, check changes via dvc status 
 
 
+git log --oneline
+git checkout <hash> - git checkout master
