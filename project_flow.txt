@@ -11,4 +11,7 @@ use these 2 line
   git rm -r --cached 'data'
    git commit -m "stop tracking data"
 
+again we do dvc add data/ (create data.dvc) then git add .gitignore data.dvc
+now dvc commit and then dvc push
+
 
